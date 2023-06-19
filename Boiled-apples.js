@@ -25,6 +25,8 @@ Example:
 */
 
 
+// Solution
+
 function cookingTime(apples) {
   return 5 * Math.ceil(apples / 8);
 }
