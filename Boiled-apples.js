@@ -32,3 +32,9 @@ function cookingTime(apples) {
 }
 
 // or
+
+function cookingTime(apples) {
+  let maxApples = 8;
+  let time = 5;
+  return Math.ceil( apples / maxApples ) * time;
+}
